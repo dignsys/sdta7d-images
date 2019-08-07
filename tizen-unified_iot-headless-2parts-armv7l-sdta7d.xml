@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<image arch="armv7l">
+  <partition aft_fstype="None" cpioopts="None" exclude_image="None" extopts="-J size=16" fslabel="rootfs" fsopts="None" fstype="ext4" init_expand="False" kspart="part / --fstype=&quot;ext4&quot; --ondisk=mmcblk0p --size=1000 --bytes-per-inode=4096 --label=rootfs --extoptions=-J size=16 --uuid=c7891d40-5946-4e16-ab90-091c2c087d23
+" label="rootfs" mountpoint="/" name="rootfs.img" no_shrink="False" size="1000" squashfsopts="None" uuid="None" vdfsopts="None"/>
+  <partition aft_fstype="None" cpioopts="None" exclude_image="None" extopts="-b 1024" fslabel="ramdisk" fsopts="None" fstype="ext4" init_expand="False" kspart="part /mnt/initrd --fstype=&quot;ext4&quot; --ondisk=mmcblk0p --size=7 --bytes-per-inode=4096 --label=ramdisk --extoptions=-b 1024 --uuid=9532bf54-069d-4131-8fd2-91a0202fd233
+" label="ramdisk" mountpoint="/mnt/initrd" name="ramdisk.img" no_shrink="False" size="7" squashfsopts="None" uuid="None" vdfsopts="None"/>
+  <partition aft_fstype="None" cpioopts="None" exclude_image="None" extopts="-b 1024 -O ^has_journal" fslabel="ramdisk-recovery" fsopts="None" fstype="ext4" init_expand="False" kspart="part /mnt/initrd-recovery --fstype=&quot;ext4&quot; --ondisk=mmcblk0p --size=12 --bytes-per-inode=4096 --label=ramdisk-recovery --extoptions=-b 1024 -O ^has_journal --uuid=0b34a589-7cc3-4aca-ba89-f4a309059b85
+" label="ramdisk-recovery" mountpoint="/mnt/initrd-recovery" name="ramdisk-recovery.img" no_shrink="False" size="12" squashfsopts="None" uuid="None" vdfsopts="None"/>
+  <partition aft_fstype="None" cpioopts="None" exclude_image="None" extopts="-m 0" fslabel="system-data" fsopts="None" fstype="ext4" init_expand="False" kspart="part /opt/ --fstype=&quot;ext4&quot; --ondisk=mmcblk0p --size=512 --bytes-per-inode=4096 --label=system-data --extoptions=-m 0 --uuid=ecc22ae4-17ca-46df-a2e9-1991271d78e5
+" label="system-data" mountpoint="/opt" name="system-data.img" no_shrink="False" size="512" squashfsopts="None" uuid="None" vdfsopts="None"/>
+</image>

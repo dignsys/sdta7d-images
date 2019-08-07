@@ -1,0 +1,18 @@
+{
+    "format": "loop", 
+    "version": "0.28.5", 
+    "log_file": "/home2/iMX7/Tizen-sdta7d-rev1/mic_build.log", 
+    "loop": {
+        "image_files": [
+            "tizen-unified_iot-headless-2parts-armv7l-sdta7d.tar.gz"
+        ], 
+        "pack": ".tar.gz", 
+        "partitions": {
+            "/opt": "system-data", 
+            "/mnt/initrd": "ramdisk", 
+            "/": "rootfs", 
+            "/mnt/initrd-recovery": "ramdisk-recovery"
+        }
+    }, 
+    "created": "2019-08-07 09:30:50"
+}
