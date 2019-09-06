@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
 <image arch="armv7l">
-  <partition aft_fstype="None" cpioopts="None" exclude_image="None" extopts="None" fslabel="modules" fsopts="defaults,noatime" fstype="ext4" init_expand="False" kspart="part /lib/modules --active --fstype=&quot;ext4&quot; --ondisk=mmcblk0 --size=50 --bytes-per-inode=4096 --fsoptions=&quot;defaults,noatime&quot; --label=modules --uuid=b033565b-6592-44a9-8d79-b14a6dc44de5
+  <partition aft_fstype="None" cpioopts="None" exclude_image="None" extopts="None" fslabel="modules" fsopts="defaults,noatime" fstype="ext4" init_expand="False" kspart="part /lib/modules --active --fstype=&quot;ext4&quot; --ondisk=mmcblk0 --size=50 --bytes-per-inode=4096 --fsoptions=&quot;defaults,noatime&quot; --label=modules --uuid=4d23215d-7a33-43b6-978b-fa42bc4c58ff
 " label="modules" mountpoint="/lib/modules" name="modules.img" no_shrink="False" size="50" squashfsopts="None" uuid="None" vdfsopts="None"/>
 </image>
